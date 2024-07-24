@@ -13,7 +13,7 @@ upgrade. However, specific versions of Nomad may have more details provided for
 their upgrades as a result of new features or changed behavior. This page is
 used to document those details separately from the standard upgrade flow.
 
-## Nomad 1.8.2 (UNRELEASED)
+## Nomad 1.8.2
 
 #### New `windows_allow_insecure_container_admin` configuration option for Docker driver
 
@@ -66,7 +66,7 @@ In Nomad 1.7.0 the `raw_exec` plugin option for `no_cgroups` became ineffective.
 Starting in Nomad 1.8.0 attempting to set the `no_cgroups` in `raw_exec` plugin
 configuration will result in an error when starting the agent.
 
-## Nomad 1.7.10 (UNRELEASED)
+## Nomad 1.7.10
 
 <EnterpriseAlert inline />
 
@@ -231,7 +231,7 @@ cgroup to halt the process group of a Task before issuing a kill signal to each
 process. Starting in Nomad 1.7.0 this behavior is always enabled (and a similar
 mechanism has always been enabled on cgroups v2 systems).
 
-## Nomad 1.6.13 (UNRELEASED)
+## Nomad 1.6.13
 
 <EnterpriseAlert inline />
 
